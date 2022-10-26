@@ -61,8 +61,40 @@ namespace CollectionsSetNoModelo
 
             //o que ocorreu? a1 é equals a harry?
             Console.WriteLine($"a1 é equals a harry? {a1.Equals(harry)}");
-            
+
             //São diferentes precisamos implementar Equals()
+
+            //limpando o console
+            Console.Clear();
+            //Já temos o método para saber se o aluno está matriculado.
+            //Mas agora precisamos buscar pelo numero de matricula
+            //pergunta: "Quemé o aluno com matricula 56178?"
+            Console.WriteLine("Quemé o aluno com matricula 17645?");
+            //implementando Curso.BuscandoMatriculado
+            Aluno aluno17645 = csharpColecoes.BuscandoMatriculado(17645);
+            //Imprimindo o aluno encontrado
+            Console.WriteLine($"Aluno17645: {aluno17645}");
+
+            //Funciona! Mas essa busca é eficinte?
+            //Introduzindo uma nova coleção: dicionário
+            //Um dicionario permite associar uma chave (no caso, matricula) a um valor (o aluno)
+            //Vamos implementar um dicionario da aluos em Curso
+
+            //pergunta: "Quemé o aluno com matricula 56178?"
+            Console.WriteLine("Quemé o aluno com matricula 56178?");
+            //implementando Curso.BuscandoMatriculado
+            Aluno aluno5618 = csharpColecoes.BuscandoMatriculado(5618);
+            Console.WriteLine($"Aluno5618: {aluno5618}");
+
+            //e se tentarmos adicionar outro aluno com a mesma chave?
+            Aluno fred = new Aluno("Fred Wesley", 17645);
+            //csharpColecoes.Matricular(fred);
+            //e se quisermos trocar o aluno que tem a mesma chave?
+            csharpColecoes.SubstituiAluno(fred);
+            //pergunta: "Quem é o aluno 17645 agora?"
+            Console.WriteLine("Quem é o aluno 17645 agora?");
+            aluno17645 = csharpColecoes.BuscandoMatriculado(17645);
+            Console.WriteLine($"Aluno17645: {aluno17645}");
         }
     }
 }

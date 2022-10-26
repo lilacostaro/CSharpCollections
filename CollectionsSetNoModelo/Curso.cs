@@ -4,6 +4,8 @@ namespace CollectionsSetNoModelo
 {
     class Curso
     {
+        //Implementando um dicionario de alunos
+        private IDictionary<int, Aluno> dicionarioAlunos = new Dictionary<int, Aluno>();
         //alunos deve ser um Iset. Aluno deve retornar ReadOnlyCollection
         private ISet<Aluno> alunos = new HashSet<Aluno>();
 
@@ -65,7 +67,9 @@ namespace CollectionsSetNoModelo
 
         internal void Matricular(Aluno aluno)
         {
-            alunos.Add(aluno);
+            this.alunos.Add(aluno);
+            this.dicionarioAlunos.Add(aluno.NumeroMatricula, aluno);
+
         }
 
         public override string ToString()
@@ -78,6 +82,27 @@ namespace CollectionsSetNoModelo
             return alunos.Contains(aluno);
         }
 
+        internal Aluno BuscandoMatriculado(int numeroMatricula)
+        {
+            //foreach (var aluno in alunos)
+            //{
+            //    if (aluno.NumeroMatricula == numeroMatricula)
+            //    {
+            //        return aluno;
+            //    }
 
+            //}
+            //throw new Exception($"Matrícula não encontrada: {numeroMatricula}");
+            {
+                Aluno aluno = null;
+                this.dicionarioAlunos.TryGetValue(numeroMatricula, out aluno);
+                return aluno;
+            }
+        }
+
+        internal void SubstituiAluno(Aluno aluno)
+        {
+            this.dicionarioAlunos[aluno.NumeroMatricula] = aluno;
+        }
     }
 }
