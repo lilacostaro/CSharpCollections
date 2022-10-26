@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace CSharpCollections
+namespace Collections_Arrays
+
 {
     class Program
     {

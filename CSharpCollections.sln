@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections", "CSharpCollections\CSharpCollections.csproj", "{2117BF52-B94C-4661-B604-A37216D69F00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Arrays", "CSharpCollections\Collections_Arrays.csproj", "{2117BF52-B94C-4661-B604-A37216D69F00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Listas", "Collections_Listas\Collections_Listas.csproj", "{1343C7CC-54C9-4450-AF07-631036E36F3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_ListaObjetos", "Collections_ListaObjetos\Collections_ListaObjetos.csproj", "{CDCEFD00-E522-4A7F-A3ED-36FA1811A85F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsListasSomenteLeitura", "CollectionsListasSomenteLeitura\CollectionsListasSomenteLeitura.csproj", "{F371E6C8-EC11-4784-8B43-2EDDAD63B086}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{2117BF52-B94C-4661-B604-A37216D69F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2117BF52-B94C-4661-B604-A37216D69F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2117BF52-B94C-4661-B604-A37216D69F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1343C7CC-54C9-4450-AF07-631036E36F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1343C7CC-54C9-4450-AF07-631036E36F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1343C7CC-54C9-4450-AF07-631036E36F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1343C7CC-54C9-4450-AF07-631036E36F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCEFD00-E522-4A7F-A3ED-36FA1811A85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCEFD00-E522-4A7F-A3ED-36FA1811A85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCEFD00-E522-4A7F-A3ED-36FA1811A85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCEFD00-E522-4A7F-A3ED-36FA1811A85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F371E6C8-EC11-4784-8B43-2EDDAD63B086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F371E6C8-EC11-4784-8B43-2EDDAD63B086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F371E6C8-EC11-4784-8B43-2EDDAD63B086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F371E6C8-EC11-4784-8B43-2EDDAD63B086}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
