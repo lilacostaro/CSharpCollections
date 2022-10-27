@@ -9,13 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Listas", "Colle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_ListaObjetos", "Collections_ListaObjetos\Collections_ListaObjetos.csproj", "{CDCEFD00-E522-4A7F-A3ED-36FA1811A85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsListasSomenteLeitura", "CollectionsListasSomenteLeitura\CollectionsListasSomenteLeitura.csproj", "{F371E6C8-EC11-4784-8B43-2EDDAD63B086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsListasSomenteLeitura", "CollectionsListasSomenteLeitura\CollectionsListasSomenteLeitura.csproj", "{F371E6C8-EC11-4784-8B43-2EDDAD63B086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsSets", "CollectionsSets\CollectionsSets.csproj", "{38FDD111-D4F9-4342-9F8D-CA5A6622BBBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsSets", "CollectionsSets\CollectionsSets.csproj", "{38FDD111-D4F9-4342-9F8D-CA5A6622BBBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsSetNoModelo", "CollectionsSetNoModelo\CollectionsSetNoModelo.csproj", "{5693E8BB-E807-4C45-9BDC-297C57A13311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsSetNoModelo", "CollectionsSetNoModelo\CollectionsSetNoModelo.csproj", "{5693E8BB-E807-4C45-9BDC-297C57A13311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsDictionaries", "CollectionsDictionaries\CollectionsDictionaries.csproj", "{C5D873AA-3AC9-4659-9113-D35680705E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsLinkedLists", "CollectionsDictionaries\CollectionsLinkedLists.csproj", "{C5D873AA-3AC9-4659-9113-D35680705E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsStack", "CollectionsStack\CollectionsStack.csproj", "{ED9D7F2F-CFE2-48A5-AD93-61C16C84B0C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsQueue", "CollectionsQuede\CollectionsQueue.csproj", "{8C86057F-39C7-452E-A4D0-5F03897F677C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{C5D873AA-3AC9-4659-9113-D35680705E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D873AA-3AC9-4659-9113-D35680705E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D873AA-3AC9-4659-9113-D35680705E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9D7F2F-CFE2-48A5-AD93-61C16C84B0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9D7F2F-CFE2-48A5-AD93-61C16C84B0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9D7F2F-CFE2-48A5-AD93-61C16C84B0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9D7F2F-CFE2-48A5-AD93-61C16C84B0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C86057F-39C7-452E-A4D0-5F03897F677C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C86057F-39C7-452E-A4D0-5F03897F677C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C86057F-39C7-452E-A4D0-5F03897F677C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C86057F-39C7-452E-A4D0-5F03897F677C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
